@@ -1,0 +1,16 @@
+.nuget.config  '' kontrol ediniz vstudio  paketleme hatası '' 
+............................
+daha sonra ; içerik dosyasına aşağıdaki kodlamayı ekleyiniz.
+
+<packageSources>
+    <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+</packageSources>
+
+............................
+
+daha sonra ; fenrir.framewor.csproj içeriğinden 
+
+'' 		<ProjectReference Include="..\..\Libs\Fenrir.Framework\Fenrir.Framework.csproj" />'' 
+
+kaldırıyoruz.
+ ve kaydet.
