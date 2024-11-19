@@ -1,0 +1,14 @@
+1) vstudıo program tools    // nuget // ** yükleme paketi yapınız..
+  
+dotnet nuget locals all --clear   // başarılı temizlik
+  
+dotnet restore // konum hatası ve yeniden yükleme başarısız kontrol edilcek 
+
+
+daha sonra SDK güncellemesi ;
+
+vstudio  programı üzerinden; 
+
+dotnet --list-sdks
+
+  SDK yapınızı düzeltiniz.
